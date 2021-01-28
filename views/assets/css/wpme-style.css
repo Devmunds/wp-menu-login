@@ -1,0 +1,47 @@
+
+/*
+* @ Menu login
+*/
+.nav-menu-login{
+    width: 150px;
+   margin: 0 auto;
+}
+.wpme-menu-login{
+    width: 150px;
+}
+.wpme-menu-login li a{
+    color: #fff;
+    border-radius: 25px;
+}
+.wpme-menu-login li{
+    list-style-type: none;
+    position: relative; 
+    color: #fff; 
+}
+.wpme-menu-login li ul{
+    background-color: #fd9626;
+    border-radius: 0 0 5px 5px;
+    margin: 0;
+    width: 150px;
+    display: none; 
+    z-index: 300; 
+    position: absolute;
+}
+.wpme-menu-login li ul li{    
+    padding: 5px;
+}
+.wpme-menu-login li ul li a{
+    border-radius: 0;
+    padding: 0;
+    color: #fff;
+}
+.wpme-menu-login  li:hover ul, .wpme-menu-login li.over ul{
+    display: block;    
+}
+
+#wpme-login{
+    text-align: center;
+}
+#wpme-login span{
+    color: #fff;
+}
