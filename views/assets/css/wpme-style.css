@@ -22,13 +22,14 @@
     background-color: #fd9626;
     border-radius: 0 0 5px 5px;
     margin: 0;
-    width: 150px;
+    width: 120px;
     display: none; 
     z-index: 300; 
     position: absolute;
 }
 .wpme-menu-login li ul li{    
     padding: 5px;
+    margin-left: 10px;
 }
 .wpme-menu-login li ul li a{
     border-radius: 0;
